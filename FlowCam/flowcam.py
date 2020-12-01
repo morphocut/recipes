@@ -37,7 +37,6 @@ if __name__ == "__main__":
 
         regionprops = ImageProperties(mask, img_gray)
 
-        # TODO: Prefix everything with object_ for ecotaxa
         object_meta = obj.data
 
         object_id = Format("{lst_name}_{id}", lst_name=obj.lst_name, _kwargs=object_meta)
